@@ -1,0 +1,141 @@
+* {
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 15;
+  position: relative;
+  bottom: 80px;
+}
+
+.seta {
+  position: relative;
+  right: 270px;
+  top: 20px;
+}
+
+.voltar {
+  margin-right: 30px;
+  position: relative;
+  top: 10px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  right: 270px;
+  text-decoration: none;
+  color: black;
+}
+
+.n1 {
+  margin: 80px;
+}
+
+.titulo {
+  margin-right: 190px;
+  font-family: Dela Gothic One;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 70px;
+  letter-spacing: 0em;
+  position: relative;
+  left: 70px;
+}
+
+.desc {
+  margin-right: 30px;
+  position: relative;
+  right: 60px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  right: 30px;
+}
+
+.desc2 {
+  margin-right: 30px;
+  position: relative;
+  right: 60px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  right: 120px;
+}
+
+.formlog{
+  margin-right: 350px;
+  margin-top: 50px;
+}
+
+.inputform1 {
+  margin-bottom: 2%;
+  margin-left: 372px;
+  width: 513px;
+  height: 37px;
+  padding: 3px;
+  border-radius: 5px;
+  border: 1;
+}
+
+.nome {
+  margin-top: 2%;
+  position: relative;
+  left: 50px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.inputcheck { 
+  margin-left: 225px;
+  margin-top: 10px;
+  position: relative;
+  right: 125px;
+  top: 2px;
+  border-radius: 3px;
+  accent-color: #04E762;
+  cursor: pointer;
+}
+
+.inputcheck:checked {
+  
+}
+
+.btn {
+  width: 300px;
+  height: 40px;
+  margin-top: 40px;
+  background-color: #FF0096;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  font-family: Poppins;
+  cursor: pointer;
+}
+
+.linklogin {
+  margin-left: 3px;
+  font-family: Poppins;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FF0096;
+  text-decoration: none;
+}

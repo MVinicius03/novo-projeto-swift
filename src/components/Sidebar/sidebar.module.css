@@ -1,0 +1,31 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 82px; /* Ajuste o tamanho conforme necessário */
+  background-color: #ffffff;
+  color: #0a0a0a;
+  padding: 0;
+  margin: 0;
+  border-right: 1px solid #e3e9f7; /* Adiciona uma borda à direita */
+}
+
+.logo-container {
+  padding: 20px;
+}
+
+.sidebar-items {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.sidebar-items li {
+  margin-bottom: 10px;
+}
+
+.icon {
+  font-size: 24px; /* Ajuste o tamanho do ícone conforme necessário */
+  margin: 0 20px; /* Adiciona margem ao redor do ícone */
+}
