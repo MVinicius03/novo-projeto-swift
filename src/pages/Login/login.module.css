@@ -40,6 +40,11 @@
   right: 30px;
 }
 
+.linkentrar {
+  text-decoration: none;
+  color: white;
+}
+
 .formlog{
   margin-right: 350px;
   margin-top: 50px;

@@ -1,0 +1,116 @@
+.header {
+  width: 100vw;
+  height: 50px;
+  align-items:flex-start;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #AAAAAAB2;
+  color: #FF0096;
+}
+
+.nomei {
+  margin-left: 20px;
+}
+
+.EmpresD {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.logorosa {
+  position: relative;
+  left: 1380px;
+}
+
+.imgC{
+  position: relative;
+  right: 590px;
+  width: 40px;
+  top: 10px;
+}
+
+.name1 {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: relative;
+  right: 580px;
+}
+
+.divC {
+  margin-top: 50px;
+  margin-right: 800px;
+}
+
+.form {
+  width: 800px;
+  height: 400px;
+  position: relative;
+  bottom: 230px;
+  left: 420px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.inputform1 {
+  width: 400px;
+  height: 37px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.inputform2 {
+  width: 400px;
+  height: 37px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.inputform3 {
+  width: 190px;
+  height: 37px;
+  border-radius: 5px;
+  padding: 5px;
+  position: relative;
+  right: 105px;
+  margin-top: 20px;
+}
+
+.inputform4 {
+  width: 190px;
+  height: 37px;
+  border-radius: 5px;
+  padding: 5px;
+  position: relative;
+  left: 105px;
+  bottom: 71px;
+}
+
+.inputform3::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+.nome4 {
+  position: relative;
+}
+
+.btn {
+  width: 300px;
+  height: 40px;
+  margin-top: 40px;
+  background-color: #FF0096;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  font-family: Poppins;
+  cursor: pointer;
+} 

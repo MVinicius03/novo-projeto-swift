@@ -22,7 +22,7 @@ const Login = () => {
             <label className={styles.nome3}>Lembra de mim?</label>
           </form>
 
-          <button className={styles.btn}>Entrar</button><br />
+          <Link to="/Home" className={styles.linkentrar}><button className={styles.btn}>Entrar</button></Link><br />
           <label className={styles.nome4}>Você não tem conta?</label>
           <Link className={styles.linkcadastro} to="/Cadastro">Cadastrar</Link>
 
