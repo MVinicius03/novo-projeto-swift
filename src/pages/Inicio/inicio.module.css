@@ -1,8 +1,14 @@
+.responsividade {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
 .header {
+  display: flex;
   width: 100vw;
   height: 50px;
-  align-items:flex-start;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
   font-size: 20px;
   font-weight: 900;
   line-height: 24px;
@@ -19,44 +25,44 @@
 }
 
 .cartaoD {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-right: 28px;
+  margin-left: 50px;
 }
 
 .EmpresD {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
   margin-top: 20px;
   margin-bottom: 10px;
+  margin-left: 50px;
 }
 
 .addCar {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin-left: 120px;
   border: solid 1px #FF0096;
   border-radius: 35px;
-  position: relative;
-  left: 110px;
   width: 800px;
   height: 220px;
-  margin-top: 10px;
 }
 
 .addEmpres {
+  background-color: rgb(0, 0, 0, 0.3  );
   border: solid 1px #FF0096;
   border-radius: 35px;
-  position: relative;
-  left: 110px;
   width: 250px;
   height: 220px;
   margin-bottom: 10px;
 }
 
-.logorosa {
-  position: relative;
-  left: 1380px;
-}
-
 .imgC{
-  position: relative;
-  right: 590px;
   width: 40px;
   top: 10px;
 }
@@ -68,33 +74,45 @@
   line-height: 48px;
   letter-spacing: 0em;
   text-align: left;
-  position: relative;
-  right: 580px;
 }
 
 .imgempre {
+  opacity: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   margin-top: 5px;
+  margin-left: 30px;
+  margin-bottom: 10px;
   width: 180px;
   height: 150px;
 }
 
 .linkadd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
-  position: relative;
-  width: 100px;
-  height: 100px;
-  left: 240px;
-  top: 45%;
+  text-align: center;
+  color: #000;
+  width: 200px;
+  height: 150px;
+  padding: 5px;
+  margin-top: 25px;
   border: 2px dotted #000;
   border-radius: 5px;
-  padding: 50px;
+}
+
+.cartoes {
+  display: flex;
+  align-items: center;
+  justify-content: end;
 }
 
 .linkempre {
   font-family: Poppins;
-  position: relative;
   bottom: 20px;
-  right: 5px;
   font-size: 13px;
   font-weight: 500;
   line-height: 48px;
@@ -105,7 +123,6 @@
 
 .linkempre2 {
   font-family: Poppins;
-  position: relative;
   bottom: 30px;
   font-size: 10px;
   font-weight: 500;
@@ -114,4 +131,16 @@
   text-decoration: none;
   color: black;
 }
+.imgset {
+  width: 15px;
+  opacity: 50%;
+  margin-left: 20px;
+}
 
+.overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  margin-left: 40px;
+}

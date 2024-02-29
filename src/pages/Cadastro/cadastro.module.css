@@ -3,95 +3,116 @@
 }
 
 .container {
-  width: 100%;
-  min-height: 100vh;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding: 15;
-  position: relative;
-  bottom: 80px;
+  width: 100%;
+  min-height: 100vh;
 }
 
 .n1 {
-  margin: 80px;
+  text-align: center;
+
 }
 
 .titulo {
-  margin-right: 190px;
   font-family: Dela Gothic One;
   font-size: 48px;
   font-weight: 400;
   line-height: 70px;
   letter-spacing: 0em;
-  position: relative;
-  right: 25px;
+  text-align: center;
 }
 
 .desc {
-  margin-right: 30px;
-  position: relative;
-  right: 60px;
   font-family: Poppins;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0em;
-  right: 30px;
 }
 
-.formlog{
-  margin-right: 350px;
-  margin-top: 50px;
+.divtitulo {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.divform {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.divemail{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.divsenha{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.divconfirme {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.divbtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.divlinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
 }
 
 .inputform1 {
   margin-bottom: 2%;
-  margin-left: 372px;
-  width: 513px;
-  height: 37px;
+  width: 515px;
+  height: 37.5px;
   padding: 3px;
   border-radius: 5px;
-  border: 1;
+  border: 1px solid black;
 }
 
 .inputform2 {
-  margin-left: 372px;
-  margin-bottom: 2%;
-  width: 513px;
-  height: 37px;
+  display: flex;
+  flex-direction: column;
+  width: 470px;
+  height: 38px;
   padding: 3px;
-  border-radius: 5px;
-  border: 1;
+  border-radius: 5px 0px 0px 5px;
+  border: 1px solid black;
 }
+
 
 .inputform3 {
-  margin-left: 372px;
-  width: 513px;
-  height: 37px;
+  width: 470px;
+  height: 37.5px;
   padding: 3px;
-  border-radius: 5px;
-  border: 1;
+  border-radius: 5px 0px 0px 5px;
+  border: 1px solid black;
 }
 
-.nome {
-  margin-top: 2%;
-  position: relative;
-  right: 50px;
-  font-family: Poppins;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0em;
-  text-align: left;
-
-}
-
-.nome2 {
-  margin-left: 5px;
-  position: relative;
-  right: 50px;
+.nome{
   font-family: Poppins;
   font-size: 16px;
   font-weight: 400;
@@ -100,10 +121,16 @@
   text-align: left;
 }
 
-.nome3 {
-  margin-left: 5px;
-  position: relative;
-  right: 3px;
+.nome2{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.nome3{
   font-family: Poppins;
   font-size: 16px;
   font-weight: 400;
@@ -114,26 +141,12 @@
 
 .nome4 {
   font-family: Poppins;
-  font-size: 11px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 17px;
+  line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
-}
-
-.inputcheck { 
-  margin-left: 225px;
-  margin-top: 10px;
-  position: relative;
-  right: 125px;
-  top: 2px;
-  border-radius: 3px;
-  accent-color: #04E762;
-  cursor: pointer;
-}
-
-.inputcheck:checked {
-  
+  margin-left: 10px;
 }
 
 .btn {
@@ -158,4 +171,19 @@
   text-align: left;
   color: #FF0096;
   text-decoration: none;
+}
+
+.passwordInputContainer {
+  display: flex;
+  align-items: center;
+}
+
+.togglePasswordIcon {
+  width: 42px;
+  height: 42px;
+  cursor: pointer;
+  border: 2px solid black;
+  border-left: none;
+  border-radius: 0px 5px 5px 0px;
+  background-color: #fff;
 }

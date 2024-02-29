@@ -1,0 +1,28 @@
+{
+  "cards": [
+    {
+      "id": 0,
+      "tipoDeCartao": "Debito",
+      "numeroDoCartão": "2003 1433 6588 8965",
+      "nomeCompleto": "Junior Clebison Coelho Carvalho",
+      "dataDeValidade": "20/25",
+      "cvc": "212"
+    },
+    {
+      "id": 1,
+      "tipoDeCartao": "Credito",
+      "numeroDoCartão": "6593 6901 3572 5390",
+      "nomeCompleto": "Junior Clebison Coelho Carvalho",
+      "dataDeValidade": "03/27",
+      "cvc": "212"
+    },
+    {
+      "id": 2,
+      "tipoDeCartao": "Credito",
+      "numeroDoCartão": "4523 3409 9354 1229",
+      "nomeCompleto": "Junior Clebison Coelho Carvalho",
+      "dataDeValidade": "25/24",
+      "cvc": "212"
+    }
+  ]
+}

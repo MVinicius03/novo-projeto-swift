@@ -10,41 +10,41 @@
   align-items: center;
   justify-content: center;
   padding: 15px;
-  position: relative;
   bottom: 80px;
 }
 
-.seta {
-  position: relative;
-  right: 250px;
-  top: 20px;
+.voltardiv {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .voltar {
   margin-right: 30px;
-  position: relative;
   top: 10px;
   font-family: Poppins;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0em;
-  right: 250px;
   text-decoration: none;
   color: black;
 }
 
-.n1 {
-  margin: 80px;
+.divtitulo {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 10px;
 }
 
 .titulo {
-  font-family: 'Dela Gothic One';
+  font-family: Dela Gothic One;
   font-size: 48px;
   font-weight: 400;
   line-height: 70px;
   letter-spacing: 0em;
-  margin-right: 75px;
 }
 
 .desc {
@@ -53,24 +53,41 @@
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0em;
-  margin-right: 30px;
 }
 
 .formlog {
   display: flex;
-  flex-direction: row;
-  font-family: Poppins, sans-serif;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Poppins;
   font-size: 16px;
-  height: 150px;
+  height: 250px;
   flex-direction: column;
   align-items: center;
+  margin-top: 40px;
 }
+
+.divccorrente {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.divcpoupanca {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
 
 .nome {
   margin-top: 2%;
-  position: relative;
-  right: 50px;
-  font-family: Poppins, sans-serif;
+  font-family: Poppins;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -80,9 +97,7 @@
 
 .nome2 {
   margin-left: 5px;
-  position: relative;
-  right: 50px;
-  font-family: Poppins, sans-serif;
+  font-family: Poppins;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -92,9 +107,7 @@
 
 .nome3 {
   margin-left: 5px;
-  position: relative;
-  right: 3px;
-  font-family: Poppins, sans-serif;
+  font-family: Poppins;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -103,7 +116,7 @@
 }
 
 .nome4 {
-  font-family: Poppins, sans-serif;
+  font-family: Poppins;
   font-size: 11px;
   font-weight: 400;
   line-height: 17px;
@@ -111,7 +124,10 @@
   text-align: left;
 }
 
-.inputform1,
+.inputform1 {
+  display: none;
+}
+
 .inputform2 {
   display: none;
 }
@@ -132,8 +148,6 @@
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0em;
-  position: relative;
-  left: 1px;
 }
 
 .inputform1:checked + label {
@@ -158,8 +172,6 @@
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0em;
-  position: relative;
-  left: 1px;
 }
 
 .inputform2:checked + label {
@@ -176,13 +188,13 @@
   border: none;
   border-radius: 40px;
   color: white;
-  font-family: Poppins, sans-serif;
+  font-family: Poppins;
   cursor: pointer;
 }
 
 .linklogin {
   margin-left: 3px;
-  font-family: Poppins, sans-serif;
+  font-family: Poppins;
   font-size: 11px;
   font-weight: 400;
   line-height: 17px;

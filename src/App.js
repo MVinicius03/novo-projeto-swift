@@ -12,7 +12,8 @@ import Sidebar from './components/Sidebar';
 import Inicio from './pages/Inicio';
 import Cartoes from './pages/Cartoes';
 import Carteira from './pages/Carteira';
-import AddCartao from './pages/AddCartao';
+import AddCartao from './pages/addCartao';
+import CriarCartao from './pages/CriarCartao';
 
 
 function App() {
@@ -31,7 +32,10 @@ function App() {
           <Route path="/Inicio" element={<Inicio />} />
           <Route path="/Cartoes" element={<Cartoes />} />
           <Route path="/Carteira" element={<Carteira />} />
+          <Route path="/CriarCartao" element={<CriarCartao />} />
           <Route path="/AddCartao" element={<AddCartao />} />
+     
+
 
         </Routes>
       </Router>

@@ -1,148 +1,223 @@
 * {
   overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.responsiveContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  flex-direction: column;
 }
 
 .container {
-  width: 100%;
-  min-height: 100vh;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding: 15;
-  position: relative;
-  bottom: 100px;
+  width: 100%;
+  min-height: 100vh;
 }
 
 .imgbanc {
   margin-bottom: 2%;
 }
 
-.n1 {
-  margin: 80px;
+.divtitulovoltar {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  width: 420px;
 }
 
-.seta {
-  position: relative;
-  right: 200px;
+.voltardiv {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .voltar {
-  margin-right: 30px;
-  position: relative;
-  right: 60px;
-  bottom: 10px;
   font-family: Poppins;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0em;
-  right: 200px;
   text-decoration: none;
   color: black;
 }
 
 .titulo {
-  margin-right: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
   font-family: Dela Gothic One;
   font-size: 40px;
   font-weight: 400;
   line-height: 58px;
   letter-spacing: 0em;
   text-align: left;
-  position: relative;
-  left: 370px;
 }
 
 .desc {
-  margin-right: 30px;
-  position: relative;
-  right: 60px;
+  margin-bottom: 10px;
   font-family: Poppins;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0em;
-  right: 30px;
 }
 
-.formlog{
-  margin-right: 350px;
-  margin-top: 30px;
+.divtitulo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.divform {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.divinputcep {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.divdupla1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.divinputestado {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 255px;
+  margin-right: 10px;
+}
+
+.divinputcidade {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.divinputendereco {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.divdupla2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.divinputnumero {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 255px;
+  margin-right: 10px;
+}
+
+.divinputbairro {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.divbtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .inputform1 {
-  margin-bottom: 2%;
-  margin-left: 372px;
+  display: flex;
   width: 513px;
   height: 37px;
   padding: 3px;
   border-radius: 5px;
-  border: 1;
+  border: 1px solid #000;
 }
 
 .inputform2 {
-  margin-left: 372px;
-  margin-bottom: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 245px;
   height: 37px;
   padding: 3px;
   border-radius: 5px;
-  border: 1;
-  position: relative;
-  right: 135px;
+  border: 1px solid #000;
 }
 
 .inputform3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 245px;
   height: 37px;
   padding: 3px;
   border-radius: 5px;
-  border: 1;
-  position: relative;
-  bottom: 89px;
-  left: 320px;
+  border: 1px solid #000;
 }
 
 .inputform4 {
-  margin-left: 372px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 513px;
   height: 37px;
   padding: 3px;
   border-radius: 5px;
-  border: 1;
-  position: relative;
-  bottom: 70px;
+  border: 1px solid #000;
 }
 
 .inputform5 {
-  margin-left: 372px;
-  margin-bottom: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 245px;
   height: 37px;
+  padding: 3px;
   border-radius: 5px;
-  border: 1;
-  position: relative;
-  bottom: 53px;
-  right: 133px;
+  border: 1px solid #000;
 }
 
 .inputform6 {
-  margin-left: 372px;
-  margin-bottom: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 245px;
   height: 37px;
+  padding: 3px;
   border-radius: 5px;
-  border: 1;
-  position: relative;
-  bottom: 135px;
-  left: 133px;
+  border: 1px solid #000;
 }
 
 .nome {
-  margin-top: 2%;
-  position: relative;
-  right: 50px;
+  display: flex;
+  align-items: flex-start;
   font-family: Poppins;
   font-size: 16px;
   font-weight: 400;
@@ -153,9 +228,6 @@
 }
 
 .nome2 {
-  margin-left: 5px;
-  position: relative;
-  right: 50px;
   font-family: Poppins;
   font-size: 16px;
   font-weight: 400;
@@ -165,10 +237,6 @@
 }
 
 .nome3 {
-  margin-left: 5px;
-  position: relative;
-  bottom: 89px;
-  left: 220px;
   font-family: Poppins;
   font-size: 16px;
   font-weight: 400;
@@ -177,11 +245,8 @@
   text-align: left;
 }
 
+
 .nome4 {
-  margin-top: 2%;
-  position: relative;
-  right: 35px;
-  bottom: 70px;
   font-family: Poppins;
   font-size: 16px;
   font-weight: 400;
@@ -191,10 +256,6 @@
 }
 
 .nome5 {
-  margin-top: 2%;
-  position: relative;
-  right: 35px;
-  bottom: 55px;
   font-family: Poppins;
   font-size: 16px;
   font-weight: 400;
@@ -204,10 +265,6 @@
 }
 
 .nome6 {
-  margin-top: 2%;
-  position: relative;
-  left: 220px;
-  bottom: 135px;
   font-family: Poppins;
   font-size: 16px;
   font-weight: 400;
@@ -219,15 +276,13 @@
 .btn {
   width: 300px;
   height: 40px;
-  margin-top: 40px;
+  margin-top: 20px;
   background-color: #FF0096;
   border: none;
   border-radius: 40px;
   color: white;
   font-family: Poppins;
   cursor: pointer;
-  position: relative;
-  bottom: 160px;
 }
 
 .linkcadastro {

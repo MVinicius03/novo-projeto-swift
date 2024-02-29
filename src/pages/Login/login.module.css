@@ -3,41 +3,35 @@
 }
 
 .container {
-  width: 100%;
-  min-height: 100vh;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding: 15;
-  position: relative;
-}
-
-.n1 {
-  margin: 80px;
+  width: 100%;
+  min-height: 100vh;
+  margin-bottom: 0;
 }
 
 .titulo {
-  margin-right: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: Dela Gothic One;
   font-size: 48px;
   font-weight: 400;
   line-height: 70px;
   letter-spacing: 0em;
-  position: relative;
-  right: 25px;
 }
 
 .desc {
-  margin-right: 30px;
-  position: relative;
-  right: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 80px;
   font-family: Poppins;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0em;
-  right: 30px;
 }
 
 .linkentrar {
@@ -45,15 +39,48 @@
   color: white;
 }
 
-.formlog{
-  margin-right: 350px;
-  margin-top: 50px;
+.divtitulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.formlog {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.divemail {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.divsenha {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.divcheckbox {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-right: 30px;
 }
 
 .inputform1 {
-  margin-bottom: 2%;
-  margin-left: 372px;
-  width: 513px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 525px;
   height: 37px;
   padding: 3px;
   border-radius: 5px;
@@ -61,31 +88,30 @@
 }
 
 .inputform2 {
-  margin-left: 372px;
-  width: 513px;
+  width: 480px;
   height: 37px;
   padding: 3px;
-  border-radius: 5px;
+  border-radius: 5px 0px 0px 5px;
   border: 1;
 }
 
 .nome {
-  margin-top: 2%;
-  position: relative;
-  right: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
   font-family: Poppins;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
-
 }
 
 .nome2 {
-  margin-left: 5px;
-  position: relative;
-  right: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: Poppins;
   font-size: 16px;
   font-weight: 400;
@@ -95,9 +121,9 @@
 }
 
 .nome3 {
-  margin-left: 5px;
-  position: relative;
-  right: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: Poppins;
   font-size: 11px;
   font-weight: 400;
@@ -116,18 +142,13 @@
 }
 
 .inputcheck { 
-  margin-left: 225px;
-  margin-top: 10px;
-  position: relative;
-  right: 125px;
-  top: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 3px;
   accent-color: #04E762;
   cursor: pointer;
-}
-
-.inputcheck:checked {
-  
+  margin-right: 5px;
 }
 
 .btn {
@@ -152,4 +173,19 @@
   text-align: left;
   color: #FF0096;
   text-decoration: none;
+}
+
+.passwordInputContainer {
+  display: flex;
+  align-items: center;
+}
+
+.togglePasswordIcon {
+  width: 43px;
+  height: 43px;
+  cursor: pointer;
+  border: 2px solid black;
+  border-left: none; /* Removendo a borda esquerda */
+  border-radius: 0px 5px 5px 0px;
+  background-color: #fff;
 }

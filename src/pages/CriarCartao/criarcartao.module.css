@@ -35,6 +35,23 @@
   align-items: center;
 }
 
+.selecttipo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 410px;
+  height: 50px;
+  border: #000 solid 1px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
 .imgCartao {
   margin-right: 10px;
 }
@@ -79,6 +96,14 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+.divtipo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 10px;
 }
 
 .divnumeroca {
@@ -162,6 +187,10 @@
   justify-content: center;
 }
 
+
+
+
+
 .btn {
   display: flex;
   justify-content: center;
@@ -176,4 +205,4 @@
   color: white;
   font-family: Poppins;
   cursor: pointer;
-}
+} 
